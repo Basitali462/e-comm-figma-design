@@ -1,3 +1,4 @@
+import 'package:e_commerce_design/structure/constants/widgets/custom_drop_down_components/custom_drop_down.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -29,7 +30,12 @@ class WebViewHeader extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text(
+                CustomDropDown(dropName: 'HOME'),
+                CustomDropDown(dropName: 'BAGS'),
+                CustomDropDown(dropName: 'SNEAKERS'),
+                CustomDropDown(dropName: 'BELT'),
+                CustomDropDown(dropName: 'CONTACT'),
+                /*Text(
                   'HOME',
                   style: GoogleFonts.poppins(
                     fontSize: 24,
@@ -68,7 +74,7 @@ class WebViewHeader extends StatelessWidget {
                     fontWeight: FontWeight.w500,
                     color: Color(0xFF22262A),
                   ),
-                ),
+                ),*/
               ],
             ),
           ),

@@ -46,7 +46,7 @@ class WebViewAppBar extends StatelessWidget {
             fontWeight: FontWeight.w400,
           ),
         ),
-        SizedBox(width: 15,),
+        SizedBox(width: 25,),
         Image.asset(
           cartIcon,
         ),
@@ -59,7 +59,7 @@ class WebViewAppBar extends StatelessWidget {
             fontWeight: FontWeight.w400,
           ),
         ),
-        SizedBox(width: 20,),
+        SizedBox(width: 25,),
         Text(
           '\$0.00',
           style: GoogleFonts.lato(
